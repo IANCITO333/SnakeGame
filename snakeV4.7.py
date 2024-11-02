@@ -18,7 +18,7 @@ else:
     print("Game Successfully initialized")
 
 # initialize game window
-pygame.display.set_caption("Snake Game by IanThePlug")
+pygame.display.set_caption("Snake Game by I4N_D3V")
 game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
 
 # colors
@@ -157,7 +157,7 @@ def set_volume(new_volume):
 def display_presentation():
     game_window.fill(black)
     font = pygame.font.SysFont('consolas', 60)
-    text_surface = font.render("Game developed by: IanThePlug", True, white)
+    text_surface = font.render("Game developed by: I4N_DEV", True, white)
     text_rect = text_surface.get_rect(center=(frame_size_x/2, frame_size_y/2))
     game_window.blit(text_surface, text_rect)
     pygame.display.flip()
